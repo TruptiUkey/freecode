@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+    <fieldset class="block">
+    <h4>Profile</h4>
+    <p>This information will be displayed publicly so be careful what you share.</p><br>
+        <label for="username">Username<input type="text" placeholder="Workcation.com" id="username"></label>
+        <label for="about">About</label><textarea rows="5" cols="65"></textarea>
+        <span>Write a few sentences about yourself.</span><br><br>
+        <label for="pic">Cover photo<input type="file"></label>
+    </fieldset>
+    <hr color="black">
+    <fieldset class="block">
+        <h4>Personal Information</h4>
+        <p>Use a permanent address where you can receive mail.</p>
+        <br><br>
+        <label for=""> First name<input type="text"></label>
+        <label for=""> Last name<input type="text"></label> 
+        <label for=""> Email address<input type="text"></label>
+        <label for="">Country</label>
+        <select name="" id="">
+            <option value="">United States</option>
+            <option value="">Canada</option>
+            <option value="">Mexico</option>
+        </select>
+        <br>
+        <label for="" class=""> Street address<input type="text"></label>
+        <div class="inline">
+        <label for="" class="inline-block"> City<input type="text"></label>
+        <label for="" class="inline-block"> State/Province<input type="text"></label>
+        <label for="" class="inline-block"> Zip/Postal code<input type="text"></label>
+        </div>
+    </fieldset>
+    <hr color="black">
+        <fieldset class="">
+        <h4>Notifications</h4>
+        <p>We'll always let you know about important changes, but you pick what else you want to hear about.</p>
+        <br><br>
+        <label for="">By Email</label>
+        <dl>
+            <dt><input type="checkbox" class="icn"> Comments</dt>
+            <dd>Get notified when someones posts a comment on a posting.</dd>
+            <dt><input type="checkbox" class="icn"> Comments</dt>
+            <dd>Get notified when a candidate applies for a job.</dd>
+            <dt><input type="checkbox" class="icn"> Comments</dt>
+            <dd>Get notified when a candidate accepts or rejects an offer.</dd>
+        </dl>
+        <br><br>
+        <h4>Push Notifications</h4>
+        <p>These are delivered via SMS to your mobile phone.</p>
+        <label for=""><input type="radio" name="opt" checked class="icn"> Everything</label>
+        <label for=""><input type="radio" name="opt" class="icn"> Same as email</label>
+        <label for=""><input type="radio" name="opt" class="icn"> No push Notifications</label>
+    </fieldset>
+    <hr color="black">
+    <div class="buttons">
+    <input type="reset" value="Cancle" class="btn">
+    <input type="submit" value="Submit" class="btn">
+    </div>
+</form>
+</body>
+</html>
